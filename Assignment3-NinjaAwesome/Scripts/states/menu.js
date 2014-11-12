@@ -18,10 +18,9 @@ var states;
     }
     states.playButtonClicked = playButtonClicked;
 
-    //change
     function menuState() {
-        ninja.update();
         japan.update();
+        ninja.update();
     }
     states.menuState = menuState;
 
@@ -31,9 +30,9 @@ var states;
         // Declare new Game Container
         game = new createjs.Container();
 
-        // Instantiate Game Objects change
-        ninja = new objects.Ninja(stage, game);
+        // Instantiate Game Objects
         japan = new objects.Japan(stage, game);
+        ninja = new objects.Ninja(stage, game);
 
         // Show Cursor
         stage.cursor = "default";
