@@ -45,7 +45,7 @@ var managers;
             }
         };
 
-        // check collision between plane and island
+        // check collision between NINJA AND COIN
         Collision.prototype.ninjaAndCoin = function () {
             var p1 = new createjs.Point();
             var p2 = new createjs.Point();
@@ -54,7 +54,7 @@ var managers;
             p2.x = this.coin.image.x;
             p2.y = this.coin.image.y;
             if (this.distance(p1, p2) < ((this.ninja.height / 2) + (this.coin.height / 2))) {
-                createjs.Sound.play("yay");
+                // createjs.Sound.play("yay");
                 this.scoreboard.score += 100;
                 this.coin.reset();
             }

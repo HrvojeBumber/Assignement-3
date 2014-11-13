@@ -1,6 +1,6 @@
 ﻿/// <reference path="../managers/asset.ts" />
 module objects {
-    // Ocean Class
+    // this is the background image Class
     export class Japan {
         image: createjs.Bitmap;
         stage: createjs.Stage;

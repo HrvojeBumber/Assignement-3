@@ -70,6 +70,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\images\atlas.png" />
+    <Content Include="assets\images\loading.jpg" />
     <Content Include="assets\sounds\coin.wav" />
     <Content Include="assets\sounds\hit.wav" />
     <Content Include="css\app.css" />

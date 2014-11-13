@@ -51,7 +51,7 @@ module managers {
             }
         }
 
-        // check collision between plane and island
+        // check collision between NINJA AND COIN
         private ninjaAndCoin() {
             var p1: createjs.Point = new createjs.Point();
             var p2: createjs.Point = new createjs.Point();
@@ -60,7 +60,7 @@ module managers {
             p2.x = this.coin.image.x;
             p2.y = this.coin.image.y;
             if (this.distance(p1, p2) < ((this.ninja.height / 2) + (this.coin.height / 2))) {
-                createjs.Sound.play("yay");
+               // createjs.Sound.play("yay");
                 this.scoreboard.score += 100;
                 this.coin.reset();
             }

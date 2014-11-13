@@ -1,7 +1,7 @@
 ﻿/// <reference path="../managers/asset.ts" />
 var objects;
 (function (objects) {
-    // Ocean Class
+    // this is the background image Class
     var Japan = (function () {
         function Japan(stage, game) {
             this.stage = stage;

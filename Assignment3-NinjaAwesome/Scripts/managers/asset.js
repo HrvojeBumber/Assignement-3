@@ -9,21 +9,21 @@
 
     // SpriteSheet Data Object
     var spriteSheetData = {
-        "images": ["assets/images/atlas.png"],
+        "images": ["atlas.png"],
         "frames": [
+            [230, 2, 160, 152],
+            [392, 130, 120, 42],
+            [657, 55, 65, 65],
+            [392, 55, 263, 73],
             [2, 2, 226, 178],
-            [230, 2, 211, 69],
-            [443, 69, 62, 63],
-            [443, 2, 65, 65],
-            [230, 73, 211, 69],
-            [230, 144, 211, 69]
+            [392, 2, 362, 51]
         ],
         "animations": {
-            "shuriken": [0],
-            "instructionsButton": [1],
-            "coin": [2],
-            "ninja": [3],
-            "playButton": [4],
+            "coin": [0],
+            "instructionButton": [1],
+            "ninja": [2],
+            "playButton": [3],
+            "shuriken": [4],
             "tryAgainButton": [5]
         }
     };
