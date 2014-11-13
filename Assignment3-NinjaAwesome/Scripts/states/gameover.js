@@ -51,9 +51,9 @@ var states;
         game.addChild(finalScore);
 
         // Display Try Again Button
-        tryAgain = new objects.Button(stage.canvas.width / 2, 300, "tryAgainButton");
-        game.addChild(tryAgain);
-        tryAgain.addEventListener("click", tryAgainClicked);
+        tryAgainButton = new objects.Button(stage.canvas.width / 2, 300, "tryAgainButton");
+        game.addChild(tryAgainButton);
+        tryAgainButton.addEventListener("click", tryAgainClicked);
 
         stage.addChild(game);
     }
