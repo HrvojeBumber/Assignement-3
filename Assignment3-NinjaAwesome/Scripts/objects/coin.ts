@@ -1,4 +1,9 @@
 ﻿/// <reference path="../managers/asset.ts" />
+/*
+ * Name: Hrvoje Bumber
+ * Date: Nov 2014
+ * Purpose: initialize the asset for the sprite coin image and adjust it to move from the x coordinate to zero so make go from right to left.
+ */
 module objects {
     // this is the coin class
     export class Coin {

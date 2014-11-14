@@ -1,4 +1,9 @@
-﻿module managers {
+﻿/*
+ * Name: Hrvoje Bumber
+ * Date: Nov 2014
+ * Purpose: to get the image of all the images in one into a sprite to add it to the game and the sound  
+ */
+module managers {
     // Image and Sound Manifest;
     var assetManifest = [
         { id: "loading", src: "assets/images/loading.jpg" },

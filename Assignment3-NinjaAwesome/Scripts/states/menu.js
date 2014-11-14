@@ -6,6 +6,12 @@
 /// <reference path="../objects/shuriken.ts" />
 /// <reference path="../objects/button.ts" />
 /// <reference path="../objects/label.ts" />
+/*
+* Name: Hrvoje Bumber
+* Date: Nov 2014
+* Purpose:create a menu screen for the game begins and when the player loses they are
+*         redirected to another screen were the score is displayed and an option to play again
+*/
 var states;
 (function (states) {
     function playButtonClicked(event) {

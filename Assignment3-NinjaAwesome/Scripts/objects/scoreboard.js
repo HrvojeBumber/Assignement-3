@@ -1,4 +1,9 @@
-﻿var objects;
+﻿/*
+* Name: Hrvoje Bumber
+* Date: Nov 2014
+* Purpose: to make a score for the user to collect point and display it in the game
+*/
+var objects;
 (function (objects) {
     // Scoreboard Class
     var Scoreboard = (function () {

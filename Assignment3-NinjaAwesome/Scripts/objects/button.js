@@ -6,6 +6,12 @@
 };
 /// <reference path="../constants.ts" />
 /// <reference path="../managers/asset.ts" />
+/*
+* Name: Hrvoje Bumber
+* Date: Nov 2014
+* Purpose: to initialize the button images  and adjust them to its position and when the mouse pointer is  hovering over the buttons,
+*          the image will fade away a little bit
+*/
 var objects;
 (function (objects) {
     var Button = (function (_super) {

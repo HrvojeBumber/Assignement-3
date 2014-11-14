@@ -6,6 +6,11 @@
 /// <reference path="../objects/ninja.ts" />
 /// <reference path="../objects/scoreboard.ts" />
 /// <reference path="../managers/collision.ts" />
+/*
+* Name: Hrvoje Bumber
+* Date: Nov 2014
+* Purpose:  to display all the assets, background image and the scoreboard in the game and creates multiple shurikens
+*/
 var states;
 (function (states) {
     function playState() {

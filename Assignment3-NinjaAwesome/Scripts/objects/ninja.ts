@@ -1,4 +1,9 @@
 ﻿/// <reference path="../managers/asset.ts" />
+/*
+ * Name: Hrvoje Bumber
+ * Date: Nov 2014
+ * Purpose: initialize the ninja character in the game and the sountrack for the game and having the object move up and down
+ */
 module objects {
     // this is the Ninja Class
     export class Ninja {

@@ -2,6 +2,13 @@
 /// <reference path="../objects/coin.ts" />
 /// <reference path="../objects/ninja.ts" />
 /// <reference path="../objects/scoreboard.ts" />
+/*
+* Name: Hrvoje Bumber
+* Date: Nov 2014
+* Purpose: when the character collides with the shuriken object it responds in a way that your lives will decrease by 1.
+*          when the character colides with the coin object it responds in way where your score will increase by 100 each time you colide
+*          with a coin object.
+*/
 var managers;
 (function (managers) {
     // Collision Manager Class

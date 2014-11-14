@@ -11,7 +11,11 @@
 /// <reference path="states/play.ts" />
 /// <reference path="states/menu.ts" />
 /// <reference path="states/gameover.ts" />
-
+/*
+ * Name: Hrvoje Bumber
+ * Date: Nov 2014
+ * Purpose: 
+ */
 
 var stage: createjs.Stage;
 var game: createjs.Container;

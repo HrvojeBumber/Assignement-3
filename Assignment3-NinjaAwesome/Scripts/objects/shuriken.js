@@ -1,4 +1,10 @@
 ﻿/// <reference path="../managers/asset.ts" />
+/*
+* Name: Hrvoje Bumber
+* Date: Nov 2014
+* Purpose: initialize the asset for the sprite
+*          shuriken image and adjust it to move from the x coordinate to zero so make go from right to left.
+*/
 var objects;
 (function (objects) {
     // Cloud class

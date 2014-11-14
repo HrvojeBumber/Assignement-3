@@ -1,4 +1,9 @@
 ﻿/// <reference path="../managers/asset.ts" />
+/*
+ * Name: Hrvoje Bumber
+ * Date: Nov 2014
+ * Purpose: initialize the background image for the game and have it as a sidesroller forever
+ */
 module objects {
     // this is the background image Class
     export class Japan {

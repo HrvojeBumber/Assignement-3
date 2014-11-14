@@ -1,4 +1,9 @@
-﻿module objects {
+﻿/*
+ * Name: Hrvoje Bumber
+ * Date: Nov 2014
+ * Purpose: to make a score for the user to collect point and display it in the game
+ */
+module objects {
     // Scoreboard Class
     export class Scoreboard {
         stage: createjs.Stage;

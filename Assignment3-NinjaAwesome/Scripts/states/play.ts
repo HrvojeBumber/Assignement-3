@@ -6,6 +6,11 @@
 /// <reference path="../objects/ninja.ts" />
 /// <reference path="../objects/scoreboard.ts" />
 /// <reference path="../managers/collision.ts" />
+/*
+ * Name: Hrvoje Bumber
+ * Date: Nov 2014
+ * Purpose:  to display all the assets, background image and the scoreboard in the game and creates multiple shurikens
+ */
 module states {
     export function playState() {
         japan.update();
@@ -42,7 +47,7 @@ module states {
         // Show Cursor
         stage.cursor = "none";
 
-        // Create multiple clouds
+        // Create multiple shurikens
         for (var count = 0; count < constants.CLOUD_NUM; count++) {
             shurikens[count] = new objects.Shuriken(stage, game);
         }
