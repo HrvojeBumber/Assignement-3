@@ -1,7 +1,7 @@
 ﻿/// <reference path="../managers/asset.ts" />
 var objects;
 (function (objects) {
-    // Ninja Class
+    // this is the Ninja Class
     var Ninja = (function () {
         function Ninja(stage, game) {
             this.stage = stage;
