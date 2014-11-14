@@ -39,7 +39,7 @@ var managers;
             p2.x = shuriken.image.x;
             p2.y = shuriken.image.y;
             if (this.distance(p1, p2) < ((this.ninja.height / 2) + (shuriken.height / 2))) {
-                //createjs.Sound.play("thunder");
+                createjs.Sound.play("hit").volume = 1;
                 this.scoreboard.lives -= 1;
                 shuriken.reset();
             }
@@ -54,7 +54,7 @@ var managers;
             p2.x = this.coin.image.x;
             p2.y = this.coin.image.y;
             if (this.distance(p1, p2) < ((this.ninja.height / 2) + (this.coin.height / 2))) {
-                // createjs.Sound.play("yay");
+                createjs.Sound.play("coin").volume = 1;
                 this.scoreboard.score += 100;
                 this.coin.reset();
             }

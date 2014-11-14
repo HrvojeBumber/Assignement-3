@@ -17,13 +17,13 @@ var objects;
         }
         Japan.prototype.update = function () {
             this.image.x -= this.dx;
-            if (this.image.x >= 0) {
+            if (this.image.x <= -1280) {
                 this.reset();
             }
         };
 
         Japan.prototype.reset = function () {
-            this.image.x = -960;
+            this.image.x = 0;
         };
 
         Japan.prototype.destroy = function () {
